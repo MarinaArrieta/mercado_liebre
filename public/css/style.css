@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Mono', monospace;
+}
+/* HEADER */
+header{
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #EAC926;;
+}
+header nav div{
+	width: 155px;
+}
+nav {
+	padding-top: 15px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 8px;
+}
+.input_i{
+	background-color: #ffff;
+	height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+header nav input[type=text] {
+  	font-size: 15px;
+  	width: 126px;
+  	padding: 0;
+  	text-align: center;
+  	border: none;
+}
+input:focus{
+    outline: none;
+}
+.iconos{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+}
+.iconos h3 {
+	font-size: 12px;
+	display: flex;
+    justify-content: center;
+    font-weight:normal;
+    margin-top: 32px;
+}
+.iconos h3 i{
+	margin-right: 7px;
+}
+.iconos .burguer {
+	display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #03264C;;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+header .iconos nav{
+	display: flex;
+	flex-direction: column;
+}
+.iconos nav ul{
+	list-style-type: none;
+}
+.iconos nav ul li a{
+	text-decoration: none;
+    color: #000000;
+}
+main{
+	background-color: #ebebeb;
+}
+main div img{
+	width: 100%;
+}
