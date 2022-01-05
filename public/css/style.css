@@ -88,6 +88,7 @@ main{
 	display: flex;
     margin: auto;
     flex-direction: column;
+    border-bottom: 20px solid #ebebeb;
 }
 main div img{
 	width: 100%;
@@ -139,4 +140,39 @@ article div p{
 }
 h5{
 	font-size: 16px;
+}
+
+/* FOOTER */
+footer{
+	display: flex;
+	flex-direction: column;
+	background: #ebebeb;
+    padding: 6px;
+}
+ul{
+	background-color: #ffff;
+	margin: 0;
+    padding: 0;
+}
+li{
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.primero{
+	margin-top: 64px;
+}
+footer ul li i{
+	color: #1259c3;
+}
+h6{
+	margin: 15px 0px 7px;
+	color: #666;
+	font-size: 16px;
+    font-weight: bold;
+}
+footer ul li p{
+	font-size: 12px;
+	color: #666;
+	margin: 0px 0px 70px;
 }
