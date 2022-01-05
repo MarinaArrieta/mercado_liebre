@@ -75,6 +75,7 @@ header .iconos nav{
 	flex-direction: column;
 }
 .iconos nav ul{
+	padding: 0;
 	list-style-type: none;
 }
 .iconos nav ul li a{
